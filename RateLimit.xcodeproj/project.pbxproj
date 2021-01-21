@@ -503,6 +503,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -875,7 +876,7 @@
 				PRODUCT_NAME = RateLimit;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				WARNING_CFLAGS = (
 					"-Weverything",
 					"-Wno-missing-variable-declarations",
@@ -901,7 +902,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.RateLimit;
 				PRODUCT_NAME = RateLimit;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				WARNING_CFLAGS = (
 					"-Weverything",
 					"-Wno-missing-variable-declarations",
@@ -918,6 +919,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.RateLimitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -929,6 +931,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.RateLimitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
