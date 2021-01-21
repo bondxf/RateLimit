@@ -5,6 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage = 'https://github.com/soffes/RateLimit'
   spec.summary = 'Simple utility for only executing code every so often.'
   spec.source = {:git => 'https://github.com/soffes/RateLimit.git', :tag => "v#{spec.version}"}
+  spec.swift_version = "5.1"
   spec.license = { :type => 'MIT', :file => 'LICENSE' }
 
   spec.osx.deployment_target = '10.10'
